@@ -12,5 +12,3 @@ def find_missing(list1, list2):
         if x not in small:
             return x
     return 0
-
-print(find_missing([4, 6], [4, 6]))
